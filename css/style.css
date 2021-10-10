@@ -1,0 +1,396 @@
+.html, body {
+margin: 0;
+padding: 0;
+}
+
+.intro{
+width: 100%;
+height: 1000px;
+background:
+url("../img/ajy1.jpg") center no-repeat;
+-webkit-background-size:cover ;
+background-size:cover; 
+}
+
+.first{
+
+width: 100%;
+background:
+url("../img/1618513633_45-funart_pro-p-oboi-fon-nezhno-rozovii-fon-odnotonnii-45.jpg") center repeat ;
+background-attachment: fixed;  
+}
+    
+    .container{
+    max-width:1250px;
+    margin: 0 auto;
+    }
+    
+    .second_part{
+    width: 100%;
+    height: 400px;  
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    }
+    
+    .second_part_maintext{
+    width: 50%;
+    }
+    
+    .second_part_title{
+    font-size: 40px;
+    font-family:lobster ;
+    color: rgb(126, 182, 208);
+    text-align: center;
+    margin: 0;
+    }
+        
+    .second_part_subtitle{
+    font-size: 25px;
+    font-family:lobster ;
+    color: rgb(233, 70, 152);
+    text-align: center;
+    }
+    
+    
+    .second_part_text{
+    font-size: 20px;
+    font-family:Comfortaa ;
+    color: rgb(0, 0, 0);
+    text-align: center;   
+    margin-left: 0;
+    margin-right: 0px
+    }
+    
+    .img_1{
+    height: 300px;
+    margin-left: 50px;
+    }
+    
+    .third_part{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    }
+    
+    .third_part_img{
+    width:400px;
+    height: 250px;
+    margin-left: 35px;
+   
+    }
+    
+    @media (max-width:1150px){
+        .third_part_img {width: 300px;
+            height: 200px;}   
+    }
+    
+    @media (max-width:950px){
+        .third_part_img {width: 200px;
+            height: 100px;}   
+    }
+    
+    
+    .fourth_part{
+    display: flex;
+    margin-top: 5%;
+    }
+    
+    .fourth_text{
+    width: 50%;
+    align-items: center;    
+    }
+    
+    .fourth_part_title{
+    font-size: 40px;
+    font-family:lobster ;
+    color: rgb(126, 182, 208);
+    text-align: center;
+    margin: 0;
+    }
+            
+    .fourth_part_subtitle{
+    font-size: 25px;
+    font-family:lobster ;
+    color: rgb(233, 70, 152);
+    text-align: center;
+    }
+        
+    .fourth_part_text{
+    font-size: 20px;
+    font-family:Comfortaa ;
+    color: rgb(0, 0, 0);
+    text-align: center;   
+    margin-left: 0;
+    margin-right: 0px;
+    }
+    
+    .fourth_part_img{
+    width: 50%;
+    }
+    
+    .fourth_part_img_1{
+    display: flex;    
+    }
+    
+    .img_3{
+    width: 250px;
+    height: 250px;
+    padding-left: 5px;
+    padding-top: 5px;}
+    
+    .fiveth_part{
+    display: flex;
+    justify-content: center;
+    margin-top:5%;   
+    }
+    
+    .img_4{
+        width:300px;
+        height: 400px;
+        margin-left: 35px;     
+    }
+    
+    .img__4{
+        width:300px;
+        height: 400px;
+    }
+    
+    @media (max-width:1150px){
+        .img_4 {width: 300px;
+            height: 200px;}   
+    }
+    
+    @media (max-width:950px){
+        .img_4 {width: 200px;
+            height: 100px;}   
+    }
+    
+    @media (max-width:1150px){
+        .img__4 {width: 300px;
+            height: 200px;}   
+    }
+    
+    @media (max-width:950px){
+        .img__4 {width: 200px;
+            height: 100px;}   
+    }
+    
+    .sixth_part{
+    display: flex; 
+    margin-top: 5%; 
+      
+    }
+    
+    .sixth_part_title{
+    font-size: 40px;
+    font-family:lobster ;
+    color: rgb(126, 182, 208);
+    text-align: center;
+    margin: 0;
+    }
+                
+    .sixth_part_subtitle{
+    font-size: 25px;
+    font-family:lobster ;
+    color: rgb(233, 70, 152);
+    text-align: center;
+    }
+            
+    .sixth_part_text{
+    font-size: 20px;
+    font-family:Comfortaa ;
+    color: rgb(0, 0, 0);
+    text-align: center;   
+    margin-left: 0;
+    margin-bottom: 5%;
+    
+    }
+    
+    .img_6{
+    height: 300px;
+    margin-left: 50px;
+    }
+    
+    .img__6{
+    height: 300px;
+    }
+    
+    .sixth_part_maintext{
+    width: 50%;   
+    }
+    
+    .sixth_part_img{
+    display: flex;
+    width: 50%; 
+    align-items: center;   
+    margin-left: 5%;
+    margin-bottom: 5%;
+    }
+    
+    .list_title{
+    font-size: 40px;
+    font-family:lobster ;
+    color: rgb(126, 182, 208);
+    text-align: center;
+    margin: 0;
+    }
+    
+    .main_list{
+    display: flex;
+    margin-top: 5%;
+    }
+
+    .footer{
+        background-color:rgb(160, 209, 225) ; 
+        
+        display: flex;
+        width: 100%;
+        }
+        
+        .footer_info{
+        width: 70%;
+        font-family:Comfortaa ;
+        font-size: 40px;
+        text-align:left;
+        padding-left: 10px;
+        color: white;
+        text-decoration: none;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        }
+        
+        .location{
+        display: flex;
+        height:50px ;
+        width: 100%;
+        align-items: center;
+        height: 50px;
+        justify-content: left;
+        }
+        
+        .location_icon{
+        width: 6%;
+        
+        }
+        
+        .location_text{
+            font-family:Comfortaa ;
+        font-size: 30px;
+        text-align:left;
+        color: white;
+        width: 80%;
+        
+        }
+        
+        .location_title{
+            font-family:Comfortaa ;
+        font-weight: 500;
+        font-size: 30px;
+        text-align:left;
+        margin-left: 6%;
+        color: white;
+        width: 80%;  
+        }
+        
+        .footer_soc{
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        }
+        
+        .soc_tt{
+        display: flex;
+        height: 50px;
+        justify-content: left;
+        }
+        
+        .tt_icon{
+        width: 20%;
+        }
+        
+        .tt_text{
+            font-family:Comfortaa ;
+        font-size: 30px;
+        line-height: 1;
+        text-align:left;
+        padding-left: 10px;
+        color: white;
+        text-decoration: none;
+        width: 80%;
+        }
+        
+        .soc_tt :hover{
+        color:rgb(213, 152, 213);
+        
+        transition: .5s;
+        }
+        
+        
+        .soc_insta{
+        display: flex;
+        margin-top: 3%;
+        height: 60px;
+        align-items: center;
+        justify-content: left;
+        }
+        
+        .soc_insta :hover{
+            color:rgb(213, 152, 213);
+        
+        transition: .5s;
+        }
+        
+        .insta_icon{
+        width: 20%;
+        }
+                   
+        .insta_text{
+            font-family:Comfortaa ;
+        font-size: 30px;
+        text-align:left;
+        padding-left: 10px;
+        color: white;
+        text-decoration: none;
+        width: 80%;
+        }
+        
+        .soc_img{
+        width: 40px;
+        height: 40px; 
+           
+        }
+        
+        .soc_img:hover{
+        width: 45px;
+        height: 45px; 
+               
+        }
+        
+        .boredom {
+        color: rgb(1, 128, 187);
+        text-decoration: underline;
+        }
+        
+        .boredom :hover {
+        color: rgb(226, 113, 223);
+        font-size: 30px;
+        }
+        
+        .lab{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        }
+        
+        .text_amur{
+        font-size: 30px;
+        font-family:Comfortaa ;
+        margin-top: 2%;
+        color: rgb(1, 128, 187);
+        align-items: center;
+        }
+        
